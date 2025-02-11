@@ -1,0 +1,176 @@
+.companySearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.search input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.search button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search button:hover {
+  background-color: #45a049;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 16px;
+}
+
+.companyCard {
+  width: 300px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 16px;
+}
+
+.balanceRow,
+.dateRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.dateContainer {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+}
+
+.balance {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.calendarIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.date {
+  font-size: 14px;
+  color: #666;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #f8f8f8;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.increaseButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.increaseButton:hover {
+  background-color: #45a049;
+}
+
+.decreaseButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.decreaseButton:hover {
+  background-color: #d32f2f;
+}
+
+.buttonIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
